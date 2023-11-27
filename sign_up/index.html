@@ -8,25 +8,31 @@
 </head>
 <body>
     <main>
-        <header>
-            <h1>The Secret Cat Club</h1>
-            <p>Join today!</p>
-        </header>
-        <form action="">
-            <fieldset>
-                <legend>Personal information:</legend>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Name" required>
+        <div id="sign_up">
+            <div class="border">
+                <header>
+                    <h1>The Secret Cat Club</h1>
+                    <h2>Paw-sitively purr-fect! Join today!</h2>
+                </header>
+                <form action="">
+                    <fieldset class="info">
+                        <legend>Personal information:</legend>
+                        <label for="name">Cat's Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Name" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="cat@mail.com" required>
+                        <label for="email">Email (Meow-mail)</label>
+                        <input type="email" id="email" name="email" placeholder="cat@mail.com" required>
 
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" placeholder="Password" required>
+                        <label for="password">Secret Password:</label>
+                        <input type="password" id="password" name="password" placeholder="Password" required>
 
-                <button type="submit">Sign Up</button>
-            </fieldset>
-        </form>
+                        <button type="submit">Paw-sitively Join</button>
+                    </fieldset>
+                </form>                
+            </div>
+
+        </div>
+        
     </main>
 </body>
 </html>
